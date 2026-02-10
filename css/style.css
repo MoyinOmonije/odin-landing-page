@@ -132,7 +132,7 @@
     display: flex;
     flex-direction: column;
     background: #e5e7eb;
-    padding: 100px 560px;
+    padding: 100px 400px;
 }
 
 #quote-section .main-quote{
@@ -142,8 +142,48 @@
     font-style: italic;
 }
 
-#quote-section .name-of-quoter{
+#quote-section .name-of-quoter {
     font-weight: 900;
     display: flex;
     justify-content: flex-end;
+}
+
+/* Call to action section */
+#call-to-action-section {
+    padding: 100px 200px;
+    display: flex;
+    justify-content: center;
+}
+
+#call-to-action-section .action-area {
+    display: flex;
+    flex: 1;
+    background: #3882F6;
+    padding: 60px 150px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-area .text-portion {
+    color: #f9FAF8;
+}
+
+.text-portion .major-text {
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.text-portion .minor-text {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.action-area .action-button {
+    background: none;
+    border: 2px solid #f9FAF8;
+    color: #f9FAF8;
+    padding: 8px 30px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 16px;
 }
