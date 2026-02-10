@@ -126,3 +126,24 @@
     text-align: center;
     font-weight: 300;
 }
+
+/* Quote section */
+#quote-section {
+    display: flex;
+    flex-direction: column;
+    background: #e5e7eb;
+    padding: 100px 560px;
+}
+
+#quote-section .main-quote{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+#quote-section .name-of-quoter{
+    font-weight: 900;
+    display: flex;
+    justify-content: flex-end;
+}
