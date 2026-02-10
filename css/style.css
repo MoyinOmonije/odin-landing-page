@@ -84,3 +84,45 @@
     font-weight: 900;
     font-size: 18px;
 }
+
+/* Random Information section */
+#random-info-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 200px 100px;
+    gap: 40px;
+}
+
+.random-info-section-header{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.row-of-info {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+}
+
+.info-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 150px;
+    gap: 10px;
+}
+
+.info-block .block {
+    height: 150px;
+    width: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.info-block p{
+    text-align: center;
+    font-weight: 300;
+}
